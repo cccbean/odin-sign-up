@@ -7,6 +7,12 @@
   font-style: normal;
 }
 
+/* This should def not be a * selector, but whatever */
+* {
+  /* Flexbox was cutting content off screen, no longer! */
+  flex-flow: row wrap;
+}
+
 /* Get rid of browser form style */
 button,
 input,
@@ -20,13 +26,12 @@ body {
   margin: 0;
 }
 
-
-
 .container {
   display: flex;
   height: 100vh;
 }
 
+/* SIDEBAR SECTION */
 .sidebar {
   flex: 2;
   display: flex;
@@ -64,8 +69,7 @@ img {
   height: auto;
 }
 
-
-
+/* CONTENT SECTION */
 .content {
   flex: 3;
   display: flex;
