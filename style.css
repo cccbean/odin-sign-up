@@ -86,6 +86,7 @@ img {
 
 .form {
   background-color: white;
+  box-shadow: 4px 4px 8px rgb(135, 135, 135);
 }
 
 .form h2 {
@@ -96,7 +97,6 @@ img {
   display: flex;
   padding: 16px 256px 64px 64px;
   gap: 32px;
-  box-shadow: 4px 4px 8px rgb(135, 135, 135);
 }
 
 .form-col1,
