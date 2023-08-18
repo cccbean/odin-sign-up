@@ -123,8 +123,8 @@ img {
 
 .form-container input:focus {
   border: 1px solid blue;
-  box-shadow: 2px 2px 8px rgb(135, 135, 135);
-  outline: none;
+  box-shadow: 2px 2px 8px rgb(135, 135, 135);  outline: none; 
+  /* outline: none got rid of the red border appear on focus */
 }
 
 .create-button {
@@ -148,4 +148,17 @@ img {
 #login:hover, 
 #login:active   {
   color: #404e34;
+}
+
+input:invalid, 
+input.invalid {
+  border: 1px solid red;
+}
+ 
+input.valid {
+  border: 1px solid green;
+}
+
+.no-match {
+  color: red;
 }
